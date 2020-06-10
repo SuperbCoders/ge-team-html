@@ -260,10 +260,7 @@ body {
   color: #000000;
   white-space: nowrap;
 }
-.clients__big-title-second {
-  display: none;
-}
-.clients__big-title-third {
+.clients__big-title-wrapper:nth-child(n+3) {
   display: none;
 }
 .clients__feedback {
@@ -644,21 +641,15 @@ body {
   }
   .clients__big-title-wrapper {
     margin-top: 50px;
-    height: 264px;
+    height: 84px;
   }
   .clients__big-title {
     font-size: 48px;
     line-height: 56px;
   }
-  .clients__big-title-second {
+  .clients__big-title-wrapper:nth-child(n+3) {
+    margin-top: 0 !important;
     display: block;
-    margin-top: 45px;
-    margin-left: 100px;
-  }
-  .clients__big-title-third {
-    display: block;
-    margin-top: 45px;
-    margin-left: 200px;
   }
   .clients__feedback {
     flex-wrap: wrap;

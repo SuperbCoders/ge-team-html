@@ -19,5 +19,7 @@ $('a[href*="#"]').on('click', function(e) {
 
 // Загрузка страницы
 $(document).ready(function() {
-  $('.marquee').marquee({ duration: 8000, gap: 50, duplicated: true });
+  $('.clients__big-title-first').marquee({ duration: 8000, gap: 50, duplicated: true });
+  setTimeout(() => $('.clients__big-title-second').marquee({ duration: 8000, gap: 50, duplicated: true }), 2000);
+  setTimeout(() => $('.clients__big-title-third').marquee({ duration: 8000, gap: 50, duplicated: true }), 4000);
 });
