@@ -1,0 +1,113 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+.header__chat { 
+  background: url(../img/chat-button-pink.svg);
+}
+
+.meet { 
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.meet__header { 
+  display: flex;
+  justify-content: space-between;
+}
+.meet__title { }
+.meet__select { 
+  width: 280px;
+}
+.meet__content { 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.meet__item { 
+  margin-bottom: 64px;
+}
+.meet__item-icon { 
+  width: 280px;
+  height: 275px;
+}
+.meet__item-title { 
+  margin-top: 20px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #222222;
+}
+.meet__item-desc { 
+  display: block;
+  margin-top: 10px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+.meet__item-lang { 
+  display: block;
+  margin-top: 10px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+
+/* Малые экраны */
+@media (max-width: 767px) {
+  .preview__about-text {
+    font-weight: normal;
+  }
+  .meet__select {
+    position: static;
+    width: 230px;
+  }
+  .meet__content {
+    justify-content: space-around;
+
+  }
+  .meet__item { 
+    margin-bottom: 20px;
+    max-width: 180px;
+  }
+  .meet__item-icon {
+    width: 180px;
+    height: 177px;
+  }
+  .meet__item-title { 
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .meet__item-desc { 
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .meet__item-lang { 
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .footer {
+    margin-top: 50px;
+  }
+}
