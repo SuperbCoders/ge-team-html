@@ -37,4 +37,9 @@ $(document).ready(function() {
       marquee3.marquee({ duration: 8000, gap: 50, duplicated: true });
     }, 4000);
   }
+
+  const marqueeServices = $('.services__marquee');
+  if (marqueeServices.length) {
+    marqueeServices.marquee({ duration: 8000, gap: 50, duplicated: true });
+  }
 });
