@@ -44,7 +44,7 @@ body {
   transition: .3s;
 }
 .link-button:hover { 
-  background-color: #e2e2e2;
+  background-color: rgb(227, 227, 227, .5);
 }
 .title {
   font-family: Work Sans;
