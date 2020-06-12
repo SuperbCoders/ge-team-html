@@ -121,6 +121,9 @@
 
 /* Малые экраны */
 @media (max-width: 767px) {
+  .connect {
+    flex-direction: column;
+  }
   .request__title {
     width: 303px;
     font-size: 24px;
@@ -135,7 +138,7 @@
   }
   .request__message {
     height: 100px;
-    border-radius: 60px;
+    border-radius: 35px;
     padding-top: 5px;
   }
   .request__attach-img {
