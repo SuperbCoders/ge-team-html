@@ -267,9 +267,6 @@ body {
 .clients__big-title-wrapper:nth-child(n+3) {
   display: none;
 }
-.clients__big-title-second, .clients__big-title-third {
-  display: none;
-}
 .clients__feedback {
   display: flex;
   justify-content: space-between;

@@ -23,23 +23,17 @@ $(document).ready(function() {
   const marquee2 = $('.clients__big-title-second');
   const marquee3 = $('.clients__big-title-third');
   if (marquee1.length) {
-    marquee1.marquee({ duration: 8000, gap: 50, duplicated: true });
+    marquee1.marquee({ duration: 10000, gap: 20, delayBeforeStart: 0, startVisible: true, duplicated: true });
   }
   if (marquee2.length) {
-    setTimeout(() => {
-      marquee2.css('display', 'block');
-      marquee2.marquee({ duration: 8000, gap: 50, duplicated: true });
-    }, 2000);
+    marquee2.marquee({ duration: 10000, gap: 20, delayBeforeStart: 0, startVisible: true, duplicated: true });
   }
   if (marquee3.length) {
-    setTimeout(() => {
-      marquee3.css('display', 'block');
-      marquee3.marquee({ duration: 8000, gap: 50, duplicated: true });
-    }, 4000);
+    marquee3.marquee({ duration: 10000, gap: 20, delayBeforeStart: 0, startVisible: true, duplicated: true });
   }
 
   const marqueeServices = $('.services__marquee');
   if (marqueeServices.length) {
-    marqueeServices.marquee({ duration: 8000, gap: 50, duplicated: true });
+    marqueeServices.marquee({ duration: 10000, gap: 20, delayBeforeStart: 0, startVisible: true, duplicated: true });
   }
 });
