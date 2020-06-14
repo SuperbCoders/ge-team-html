@@ -12,7 +12,7 @@
 }
 .meet__title { }
 .meet__select { 
-  width: 280px;
+  width: 280px !important;
 }
 .meet__content { 
   display: flex;
@@ -54,6 +54,97 @@
   font-size: 16px;
   line-height: 19px;
 }
+
+/* Multiselect Begin */
+.multiselect {
+  position: relative;
+}
+.selectbox {
+  cursor: pointer;
+}
+.selectbox select {
+  width: 100%;
+  font-weight: bold;
+}
+.overselect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.checkboxes {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 43px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  z-index: 1;
+  overflow: hidden;
+}
+.checkboxes label {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  height: 60px;
+  padding: 12px 0 10px 33px;
+  line-height: 19px;
+  color: #000000;
+  cursor: pointer;
+}
+.checkboxes label:hover {
+  background-color: #e6e6e6;
+}
+.checkboxes input {
+  display: none;
+}
+.checkmark {
+  display: inline-block;
+  position: relative;
+  width: 22px;
+  height: 22px;
+  background: #FAFBFD;
+  border: 1px solid #C9CCD4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+.checkboxes:hover input ~ .checkmark {
+  /* background-color: #ccc; */
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkboxes input:checked ~ .checkmark {
+  border-width: 0;
+  background-color: #000;
+}
+.checkboxes input:checked ~ .checkmark:after {
+  display: block;
+}
+.checkboxes .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Multiselect End */
+
 
 
 /* Малые экраны */

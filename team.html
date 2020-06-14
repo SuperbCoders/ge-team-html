@@ -39,13 +39,38 @@
     <section class="meet">
       <div class="meet__header">
         <h2 class="meet__title title">Meet the team!</h2>
-        <select class="meet__select footer__language-select link-button">
-          <option selected>Choose Language</option>
-          <option>English</option>
-          <option >Georgian</option>
-          <option >Russian</option>
-          <option >Kazakh</option>
-        </select>
+
+        <div class="multiselect">
+          <div class="selectbox">
+            <select class="meet__select footer__language-select link-button">
+              <option>Choose Language</option>
+            </select>
+            <div class="overselect"></div>
+          </div>
+          <div class="checkboxes">
+            <label for="English">
+              <input type="checkbox" id="English"/>
+              <span class="checkmark"></span>
+              English
+            </label>
+            <label for="Georgian">
+              <input type="checkbox" id="Georgian"/>
+              <span class="checkmark"></span>
+              Georgian
+            </label>
+            <label for="Russian">
+              <input type="checkbox" id="Russian"/>
+              <span class="checkmark"></span>
+              Russian
+            </label>
+            <label for="Kazakh">
+              <input type="checkbox" id="Kazakh"/>
+              <span class="checkmark"></span>
+              Kazakh
+            </label>
+          </div>
+        </div>
+
       </div>
       <div class="meet__content">
         <div class="meet__item">
