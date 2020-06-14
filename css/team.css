@@ -154,7 +154,7 @@
   }
   .meet__select {
     position: static;
-    width: 230px;
+    max-width: 230px;
   }
   .meet__content {
     justify-content: space-around;
