@@ -154,6 +154,9 @@
 .services__link img { 
   margin-left: 10px;
 }
+.show {
+  display: block;
+}
 
 
 /* Малые экраны */
