@@ -41,6 +41,7 @@
 .request__message { 
   height: 120px;
   border-radius: 80px;
+  resize: none;
 }
 .request__attach { 
   position: relative;
