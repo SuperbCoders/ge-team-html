@@ -18,3 +18,5 @@ submitButton.addEventListener('mouseout', () => {
   inputEmail.classList.remove('error');
   inputMessage.classList.remove('error');
 });
+
+$('.request__message').autosize();
