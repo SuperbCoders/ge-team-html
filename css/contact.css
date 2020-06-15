@@ -1,11 +1,6 @@
-.header__chat { 
-  background: url(../img/chat-button-green.svg);
-}
-
 .hidden {
   display: none;
 }
-
 .connect { 
   display: flex;
   justify-content: space-between;
@@ -21,6 +16,7 @@
 .request__input {
   width: 100%;
   height: 80px;
+  box-sizing: border-box;
   border: 2px solid #000000;
   border-radius: 40px;
   font-family: Work Sans;
@@ -39,7 +35,6 @@
 }
 .request__input.error {
   border-color: red;
-  border-width: 4px;
 }
 .request__name { }
 .request__email { }

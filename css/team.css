@@ -1,7 +1,3 @@
-.header__chat { 
-  background: url(../img/chat-button-pink.svg);
-}
-
 .meet { 
   margin-top: 50px;
   margin-bottom: 30px;
@@ -155,6 +151,7 @@
   .meet__select {
     position: static;
     max-width: 230px;
+    padding: 2px 0 2px 30px !important;
   }
   .meet__content {
     justify-content: space-around;
