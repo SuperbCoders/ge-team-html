@@ -50,7 +50,6 @@ $(document).ready(function() {
     marqueeServices.marquee({ duration: 10000, gap: 20, delayBeforeStart: 0, startVisible: true, duplicated: true });
   }
 
-  let selectboxHideTimeout = null;
   // Клик на мультисписок выбора языка
   $('.selectbox').click(showCheckboxes);
   $('.multiselect').on({
