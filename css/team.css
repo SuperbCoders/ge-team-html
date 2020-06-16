@@ -18,7 +18,10 @@
 .meet__item { 
   margin-bottom: 64px;
 }
-.meet__item-icon { 
+.meet__item.hidden {
+  display: none;
+}
+.meet__item-icon {
   width: 280px;
   height: 275px;
 }
