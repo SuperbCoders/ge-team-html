@@ -210,7 +210,6 @@
     margin-bottom: 20px;
   }
   .services__item-text {
-    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
   }
@@ -218,6 +217,36 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+  }
+  .services__item_1 { 
+    order: 1;
+  }
+  .services__item_2 { 
+    order: 2;
+  }
+  .services__item_3 { 
+    order: 4;
+  }
+  .services__item_4 { 
+    order: 3;
+  }
+  .services__item_5 { 
+    order: 5;
+  }
+  .services__item_6 { 
+    order: 6;
+  }
+  .services__item_7 { 
+    order: 8;
+  }
+  .services__item_8 { 
+    order: 7;
+  }
+  .services__item_9 { 
+    order: 9;
+  }
+  .services__item_10 { 
+    order: 10;
   }
   .services__link {
     font-weight: 600;
