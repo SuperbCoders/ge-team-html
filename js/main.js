@@ -54,11 +54,11 @@ $(document).ready(function() {
   $('.selectbox').click(toggleCheckboxes);
   $('.multiselect').on({
     "mouseover": function () {
-      expanded = true;
+      expanded = false;
       toggleCheckboxes();
     },
     "mouseout blur": function () {
-      expanded = false;
+      expanded = true;
       toggleCheckboxes();
     }
   });
