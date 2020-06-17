@@ -19,7 +19,7 @@ $('a[href*="#"]').on('click', function(e) {
 });
 
 // Клик на мультисписок выбора языка
-function showCheckboxes() {
+function toggleCheckboxes() {
   var checkboxes = document.querySelector(".checkboxes");
   if (!expanded) {
     checkboxes.style.display = "block";
@@ -51,9 +51,15 @@ $(document).ready(function() {
   }
 
   // Клик на мультисписок выбора языка
-  $('.selectbox').click(showCheckboxes);
+  $('.selectbox').click(toggleCheckboxes);
   $('.multiselect').on({
-    "mouseover": showCheckboxes,
-    "mouseout": showCheckboxes
+    "mouseover": function () {
+      expanded = true;
+      toggleCheckboxes();
+    },
+    "mouseout blur": function () {
+      expanded = false;
+      toggleCheckboxes();
+    }
   });
 });
