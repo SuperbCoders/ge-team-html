@@ -473,6 +473,7 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  text-align-last: left;
   padding: 2px 0 2px 60px;
   cursor: pointer;
   border: 2px solid #000000;
